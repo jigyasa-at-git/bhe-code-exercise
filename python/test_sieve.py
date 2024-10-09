@@ -1,3 +1,28 @@
+"""
+Test suite for the Sieve class.
+
+This script runs unit tests to validate the functionality of the nth_prime method and includes
+a fuzzing test to ensure that random primes are correctly generated.
+
+Instructions to run the tests:
+1. Clone the Forked Repository:
+   git clone https://github.com/jigyasa-at-git/bhe-code-exercise.git
+2. Create and activate a virtual environment:
+   python -m venv venv
+3. Install Dependencies:
+   pip install -r requirements.txt
+4. Run Tests:
+   python -m unittest test_sieve.py
+
+Contributors:
+- Jigyasa (https://github.com/jigyasa-at-git)
+
+Libraries:
+- sympy for prime checking in fuzz tests
+- unittest for unit testing framework
+"""
+
+
 import random
 import unittest
 
